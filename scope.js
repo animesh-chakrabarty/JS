@@ -12,6 +12,7 @@ IMP : function scope can be achieved using var, but block scope can't be achieve
 
 IMP : both function scope & block scope can be achieved using let & const 
 
+Variables and functions defined in the parent scope will be accessible to child scope, but variables and functions defined in the child scope won't be accessible to it's parent scope
 */
 
 // function scope
