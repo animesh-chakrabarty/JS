@@ -2,6 +2,8 @@
 refence video : https://www.youtube.com/watch?v=75W8UPQ5l7k&list=PLlasXeu85E9eLVlWFs-nz5PKXJU4f7Fks&index=4
 
 function borrowing - we can borrow function from other objects and use that function with the data of object using call(), apply(), bind()
+
+function sharing - These methods allow you to share a function across different contexts dynamically.
 */
 
 let user1 = {
