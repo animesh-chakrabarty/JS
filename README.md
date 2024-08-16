@@ -7,3 +7,4 @@
 - Call, Apply & Bind : [callApplyBind.js](./callApplyBind.js)
 - Closure : [closure.js](./closure.js)
 - Currying : [currying.js](./currying.js)
+- IIFE : [IIFE.js](./IIFE.js)
