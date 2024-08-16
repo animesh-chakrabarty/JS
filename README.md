@@ -5,3 +5,5 @@
 - Lexical Scoping : [lexicalScoping.js ](./lexicalScoping.js)
 
 - Call, Apply & Bind : [callApplyBind.js](./callApplyBind.js)
+- Closure : [closure.js](./closure.js)
+- Currying : [currying.js](./currying.js)
