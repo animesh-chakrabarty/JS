@@ -12,4 +12,5 @@
 
 - Async : [Async.js](./asyncJS.js)
 - Promise & Async-Await : [Promise_Async_Await.js](./promise_async_await.js)
+- Promise APIs : [promiseAPI.js](./promise_API.js)
 
