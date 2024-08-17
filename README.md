@@ -8,3 +8,8 @@
 - Closure : [closure.js](./closure.js)
 - Currying : [currying.js](./currying.js)
 - IIFE : [IIFE.js](./IIFE.js)
+- CORS : [CORS.js](./CORS.js)
+
+- Async : [Async.js](./asyncJS.js)
+- Promise & Async-Await : [Promise_Async_Await.js](./promise_async_await.js)
+
