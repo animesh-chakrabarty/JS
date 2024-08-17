@@ -10,7 +10,13 @@
 - IIFE : [IIFE.js](./IIFE.js)
 - CORS : [CORS.js](./CORS.js)
 
-- Async : [Async.js](./asyncJS.js)
+- Async : [Async.js](./asyncJS.md)
 - Promise & Async-Await : [Promise_Async_Await.js](./promise_async_await.js)
 - Promise APIs : [promiseAPI.js](./promise_API.js)
+
+- Deboucing : [debouncing.js](./debouncing.js)
+
+
+- Throttle : [throttle.js](./throttle.js)
+- Prototype : [prototype.js](./prototype.js)
 

@@ -21,5 +21,14 @@
 - **Event Triggered**: When the specified event occurs (e.g., the user clicks the button), the Web API environment recognizes that this event matches the registered event listener.
 - **Callback Queued**: The callback function is then placed into the task queue/ callback queue. The event loop will pick it up from the task queue and push it onto the call stack for execution once the call stack is empty.
 
+### _Fetch Network Call_
+- **Initiating the Request**: When you call fetch(url, options), the JavaScript engine sends a request to the specified URL using the given options (such as method, headers, body, etc.). This request is asynchronous, meaning it won't block the rest of your code from running while waiting for a response.
+- **Sending the Request**: The fetch request is handled by the browser's Web API environment, which sends the network request over the internet to the server. This happens outside the main JavaScript thread, so it doesn’t affect the performance of your webpage.
+- **Waiting for the Response**: While the request is being processed by the server, the JavaScript engine continues executing other code. The fetch function immediately returns a Promise object, which represents the eventual completion (or failure) of the asynchronous operation.
+- **Response Received**: Once the server responds, the Web API environment receives the response data (which could be anything like HTML, JSON, or an image file). The Web API environment then passes this data back to the JavaScript engine.
+- **Promise Resolved or Rejected**: The Promise object that was returned by fetch earlier is now either resolved (if the request was successful) or rejected (if there was an error, such as a network issue or a server error).
+- **Microtask Queued**: When the Promise returned by fetch is resolved or rejected, the corresponding .then() or .catch() callback is placed in the microtask queue. The microtask queue has a higher priority than the task queue. This means that the event loop will first clear all tasks in the microtask queue before moving on to the tasks in the task queue.
+- **Event Loop Processing**: The event loop picks up the microtasks from the microtask queue and processes them immediately after the current operation on the call stack is completed but before moving on to the next task in the task queue. This allows Promise callbacks to execute more promptly.
+
 
 

@@ -20,6 +20,9 @@
 
 // MDN Definition: The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
+// When consuming a promise through .then-.catch if the promise is fullfilled the data can be recieved only inside the .then block & if the promise is rejected the error will be recieved inside the .catch block
+// When consuming a promise through async-await if the promise is fullfilled the data can directly be recieved in a variable inside the try block of async function and if the promise is rejected then the error will be caught in the catch block of async function
+
 // Promise has three states - pending, fullfilled, rejected
 
 // Example 1: basic promise

@@ -6,7 +6,7 @@ const inputField = document.querySelector("input");
 const defaultText = document.getElementById("default");
 const debounceText = document.getElementById("debounce");
 
-const debounce = (cb, delay = 1000) => {
+const debounce = (cb, delay) => {
   let timeout;
   return (...args) => {
     clearTimeout(timeout);
@@ -18,7 +18,7 @@ const debounce = (cb, delay = 1000) => {
 
 const updateDebounceText = debounce((text) => {
   debounceText.innerText = text;
-});
+}, 1000);
 
 inputField.addEventListener("input", (e) => {
   // default method
