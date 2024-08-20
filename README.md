@@ -15,8 +15,10 @@
 - Promise APIs : [promiseAPI.js](./promise_API.js)
 
 ### _Important_
-- spread & rest operator : [spreadRest.js](./spreadRest.js)
 - Call, Apply & Bind : [callApplyBind.js](./callApplyBind.js)
+- Map, Reduce & Filter : []
+- spread & rest operator : [spreadRest.js](./spreadRest.js)
+- async & defer : [asyncDefer.js](./asyncDefer.js), [async-defer-image](./async-defer.png)
 - Currying : [currying.js](./currying.js)
 - IIFE : [IIFE.js](./IIFE.js)
 - CORS : [CORS.md](./CORS.md)
