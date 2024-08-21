@@ -24,8 +24,10 @@
 - CORS : [CORS.md](./CORS.md)
 - Event Flow : [eventFlow.js](./eventFlow.js)
 - Deboucing : [debouncing.js](./debouncing.js)
+- localStorage & sessionStorage : [localStorage_sessionStorage.js](./local_session_storage.js)
 
-### _To be Done_
+### _To be Added_
 - Throttle : [throttle.js](./throttle.js)
 - Prototype : [prototype.js](./prototype.js)
+- Cookies : [cookies.js](./cookies.js)
 

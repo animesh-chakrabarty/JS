@@ -4,20 +4,21 @@ webStorage API-
 - session storage
 
 session storage : as soon as user visits a website a session is started. The data regarding that session is stored within browser memory. The moment user closes the tab or the browser the session data of that particular site gets cleared.
-
 - Each tab or window has its own session storage area, and data stored in one tab/window is not accessible from another tab/window.
 
 local storage : local storage persists beyond the current session. Data stored using local storage remains available even after the user closes the browser and then reopens it.
 
 - both local and session storage stores value in form of key value pair of string
-- both local and session storage follows the same origin policy. 
+- both local and session storage follows the Same Origin Polic. Means the data stored in the browser storage by origin X won't be accessible by origin Y. 
 - origin is defined as the combination of three things -
 1. Protocol
-2. Domain
+2. Domain / IP address
 3. Port
-
 For example,
 local and session storage data of https://www.youtube.com will be accessible from https://www.youtube.com/account. But it won't be accessible from http://www.youtube.com as the protocol changed from https to http in the second case. 
+
+Capacity -
+Both local & session storage typically have a storage capacity of around 5MB per origin across most modern browsers. Some browsers may offer slightly more or less, but 5MB is the standard.
 
 4 main methods of local and session storage -
 1. setItem()
@@ -44,7 +45,7 @@ console.log(res);
 
 // Store object in localStorage
 const data = {
-  name: "aChakrabarty",
+  name: "leo",
   age: 20,
 };
 
