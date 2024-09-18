@@ -3,6 +3,7 @@
 ### _JS Internals_
 - Scope : [scope.js](./scope.js)
 - Hoisting : [hoisting.js](./hoisting.js)
+- Object : [object.js](./object.js)
 - this keyword : [this.js](./this.js)
 - Call Stack & Execution Context : [callStack_&_executionContext.js](./callStack_EC.md)
 - Lexical Scoping : [lexicalScoping.js ](./lexicalScoping.js)
